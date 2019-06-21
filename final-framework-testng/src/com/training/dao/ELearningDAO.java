@@ -43,6 +43,12 @@ public class ELearningDAO {
 				LoginBean temp = new LoginBean(); 
 				temp.setUserName(gc.rs1.getString(1));
 				temp.setPassword(gc.rs1.getString(2));
+				temp.setFirstName(gc.rs1.getString(3));
+				temp.setLastName(gc.rs1.getString(4));
+				temp.setEMail(gc.rs1.getString(5));
+				temp.setPhoneNO(gc.rs1.getString(6));
+				temp.setUserLogin(gc.rs1.getString(7));
+				temp.setEnterPassword(gc.rs1.getString(8));
 
 				list.add(temp); 
 				
